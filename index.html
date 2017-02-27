@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Game</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h1>Welcome to Crystal Hunter!</h1>
+		</div>
+	</div>
+	<br><br>
+
+	<div class="row">
+
+		<div class="col-md-6 text-center">
+			<div class="col-md-12">
+				<h2>Match This Number: <span class="numberdisplay"></h2>
+			</div>
+			<div class="col-md-12">
+				<h2>Your Current Number: <span class="guessdisplay">0</span></h2>
+			</div>
+
+			<div class="col-md-12">
+			<br>
+			<br>
+				<div class="col-md-2 col-md-offset-2">
+					<img class="bluecrystal" src="images/blue.png">
+				</div>
+				<div class="col-md-2">
+					<img class="redcrystal" src="images/red.png" height="120px" width="105px">
+				</div>
+				<div class="col-md-2">
+					<img class="yellowcrystal" src="images/yellow.png">
+				</div>
+				<div class="col-md-2">
+					<img class="greencrystal" src="images/green.png">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="col-md-6">
+			<div class="col-md-12 text-center stats">
+			<h2 class="underline">How to Play</h2>
+				<ul>
+					<li><p>You will begin with a random number when the game starts.</p></li>
+					<li><p>Clicking on one of the crystals will return a certain amount of points to your total score!</p>
+					<li><p>To win, you must match your total score to the random number..!</p></li>
+					<li><p>You lose the game if your total score passes the random number!</p></li>
+					<li><p>The twist is that you won't know how many points each crystal holds!</p></li>
+					<li><p>Every time the game starts, the value of the crystals will reset.</p></li>
+				</ul>
+				
+				<h2 class="underline">Score</h2>
+				<p>Wins: <span id="winsdisplay">0</span></p>
+				<p>Losses: <span id="lossesdisplay">0</span></p>
+				<p>Current Hot Streak: <span id="currentstreakdisplay">0</span></p>
+				<p>Longest Hot Streak: <span id="longeststreakdisplay">0</span></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h2>Match This Number: <span class="numberdisplay"></h2>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h2>Your Current Guess: <span class="guessdisplay">0</span></h2>
+		</div>
+	</div>
+
+ 	<div class="row">
+		<div class="col-md-6 text-center">
+			<h2>Wins: <span id="winsdisplay">0</span></h2>
+			<h2>Current Hot Streak: <span id="currentstreakdisplay">0</span></h2>
+		</div>
+		<div class="col-md-6 text-center">
+			<h2>Losses: <span id="lossesdisplay">0</span></h2>
+			<h2>Longest Hot Streak: <span id="longeststreakdisplay">0</span></h2>
+		</div>
+	</div>
+
+	<br>
+	<br>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="col-md-2 col-md-offset-2">
+				<img class="bluecrystal" src="images/blue.png">
+			</div>
+			<div class="col-md-2">
+				<img class="redcrystal" src="images/red.png" height="120px" width="105px">
+			</div>
+			<div class="col-md-2">
+				<img class="yellowcrystal" src="images/yellow.png">
+			</div>
+			<div class="col-md-2">
+				<img class="greencrystal" src="images/green.png">
+			</div>
+		</div>
+	</div> 
+</div>
+</body>
+</html>
